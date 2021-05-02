@@ -91,7 +91,7 @@ export const sumGratherThan = (number1, number2, number3) => {
   if (sumResult > number3) {
     return `${sumResult} is grather than ${number3}`;
   }
-  return `${sumResult} is less than ${number3}`;
+  return `${sumResult} is less or equal than ${number3}`;
 }
 
 // console.log(sumGratherThan());
